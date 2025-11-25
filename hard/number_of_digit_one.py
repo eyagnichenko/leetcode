@@ -1,10 +1,12 @@
 """
 https://leetcode.com/problems/number-of-digit-one/
-Beats 100% by runtime, 90+% by memory.
+Beats 100% by runtime, up to 99% by memory.
 
-Tested for 0 <= n <= 10 ** 9 (original LeetCode's constraints).
+Tested for 0 <= n <= 10 ** 9 (original constraints).
+For higher values of n, some code adjustments are needed to avoid calculation bugs.
 
-For higher n values, some code adjustments are needed to avoid calculation bugs caused by dynamic typing.
+LinkedIn discussion:
+https://www.linkedin.com/feed/update/urn:li:activity:7399003247694229504/
 """
 class Solution:
 
